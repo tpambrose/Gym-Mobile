@@ -1,0 +1,5 @@
+# REACT NATIVE EXPO PROJECT
+
+## AUTHORS:
+
+TETA Precious
