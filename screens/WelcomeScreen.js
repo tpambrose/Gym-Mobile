@@ -29,12 +29,11 @@ export default function WelcomeScreen() {
           justifyContent: "flex-end",
           paddingBottom: hp(12),
           paddingHorizontal: wp(5),
-          width: "100%", // Ensure gradient covers entire width
+          width: "100%", 
         }}
         start={{ x: 0, y: 0 }}
         end={{ x: 0, y: 1 }}
       >
-        {/* Title */}
         <Text
           style={{
             fontSize: hp(4.5),

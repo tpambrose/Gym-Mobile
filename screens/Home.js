@@ -24,7 +24,7 @@ const Home = () => {
         <Text style={styles.punchlineText}>Gym App</Text>
         <View style={styles.avatarContainer}>
           <TouchableOpacity
-            onPress={() => navigation.navigate("update")} // Use navigation.navigate for navigation
+            onPress={() => navigation.navigate("update")} 
           >
             <Image
               source={require("../assets/images/avatar.png")}
@@ -62,7 +62,7 @@ const styles = {
     alignItems: "center",
   },
   punchlineContainer: {
-    spaceY: hp(2),
+    spaceY: hp(2.5),
   },
   punchlineText: {
     fontSize: hp(4.5),

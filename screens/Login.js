@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     color: "#E83D66",
   },
   formContainer: {
-    paddingHorizontal: "6%",
+    paddingHorizontal: "7%",
   },
   input: {
     height: 40,
