@@ -18,7 +18,7 @@ const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [workoutTime, setWorkoutTime] = useState(""); // New state for time
+  const [workoutTime, setWorkoutTime] = useState(""); 
   const [error, setError] = useState(null);
 
   const handleRegister = async () => {
@@ -48,7 +48,6 @@ const Register = () => {
         style={styles.backgroundImage}
       />
 
-      {/* Black Gradient Cover */}
       <LinearGradient
         colors={["rgba(0, 0, 0, 0.3)", "transparent"]}
         style={styles.gradientOverlay}
@@ -88,7 +87,7 @@ const Register = () => {
           />
           {/* Time Input */}
           <TextInput
-            placeholder="Workout Time (e.g., 22:40)"
+            placeholder="Workout Time (e.g., 13:40)"
             style={styles.input}
             value={workoutTime}
             onChangeText={(text) => setWorkoutTime(text)}
